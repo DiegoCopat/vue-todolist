@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+}
+
+/* css comuni */
+h1 {
+    font-size: 25px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* sezione css root */
+#root {
+    width: 100%;
+}
+#contenitori {
+    
+    display: flex; 
+    width: 90%;
+    margin: 30px auto 30px auto;
+    flex-wrap: wrap;
+}
+#contenitori .element {
+    position: relative;
+    width: 60%;
+    margin: 15px auto 0 auto;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+#contenitori .element i {
+    position: absolute; 
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 25px;
+    cursor: pointer;
+}
+.input {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.input input, 
+.input button {
+    padding: 5px;
+}
+input {
+    width: 300px;
+}
+
+
+
+
